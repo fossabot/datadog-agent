@@ -4,6 +4,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/kcwhmlsc0oq3m49p/branch/master?svg=true)](https://ci.appveyor.com/project/Datadog/datadog-agent/branch/master)
 [![GoDoc](https://godoc.org/github.com/DataDog/datadog-agent?status.svg)](https://godoc.org/github.com/DataDog/datadog-agent)
 [![Go Report Card](https://goreportcard.com/badge/github.com/DataDog/datadog-agent)](https://goreportcard.com/report/github.com/DataDog/datadog-agent)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fxvello%2Fdatadog-agent.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fxvello%2Fdatadog-agent?ref=badge_shield)
 
 The present repository contains the source code of the Datadog Agent version 6. Please refer to the [Agent user documentation](docs/agent) for information about differences between Agent 5 and Agent 6. Additionally, we provide a list of prepackaged binaries for an easy install process [here](https://app.datadoghq.com/account/settings#agent)
 
@@ -52,3 +53,7 @@ DD_API_KEY=12345678990 ./bin/agent/agent -c bin/agent/dist/datadog.yaml
 
 You'll find information and help on how to contribute code to this project under
 [the `docs/dev` directory](docs/dev) of the present repo.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fxvello%2Fdatadog-agent.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fxvello%2Fdatadog-agent?ref=badge_large)
